@@ -11,9 +11,6 @@ using namespace std;
 #define cin(a,n)       for(int i=0;i<n;i++)cin>>a[i];
 
 int mod=1e9+7;
- 
-
-
 
 void f(int depth,int from,int to){
   if(depth==0){
@@ -24,7 +21,6 @@ void f(int depth,int from,int to){
   cout<<from<<" "<<to<<endl;
   f(depth-1,other,to);
 }
-
 
 void solve(){
   int n;
